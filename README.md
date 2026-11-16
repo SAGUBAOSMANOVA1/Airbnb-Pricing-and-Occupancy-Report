@@ -1,8 +1,7 @@
-@'
 # Airbnb Pricing and Occupancy Report
 
 ## Project Overview
-This project is an interactive Power BI report for analyzing Airbnb listing prices, occupancy, availability, and neighbourhood performance.
+An interactive Power BI report analyzing Airbnb listing prices, occupancy, availability, and neighbourhood performance.
 
 ## Tools Used
 - Power BI Desktop
@@ -10,7 +9,7 @@ This project is an interactive Power BI report for analyzing Airbnb listing pric
 - DAX
 
 ## Data Model
-The report uses listings and calendar data, supported by a DateTable for date-based analysis.
+The report uses listings, calendar, and DateTable.
 
 ## Report Pages
 1. Overview
@@ -21,23 +20,13 @@ The report uses listings and calendar data, supported by a DateTable for date-ba
 6. Neighbourhood Details
 7. Investor Insights
 
-## Key Measures
-- Average Nightly Price
-- Median Price
-- Occupancy Rate
-- Active Listings
-- Booked Nights
-- Available Nights
-- Revenue Potential
-
-## Key Findings
+## Key Metrics
 - Average Nightly Price: 128
 - Median Price: 100
 - Occupancy Rate: 32.9%
-- Active Listings: approximately 3,818
+- Active Listings: 3,818
 - Booked Nights: 459,028
 
 ## Project Files
-- `Airbnb_Pricing_and_Occupancy_Report.pbix` — Power BI report
-- `Airbnb_Pricing_and_Occupancy_Report.pdf` — exported report
-'@ | Set-Content -Encoding UTF8 README.md
+- Airbnb_Pricing_and_Occupancy_Report.pbix
+- Airbnb_Pricing_and_Occupancy_Report.pdf
